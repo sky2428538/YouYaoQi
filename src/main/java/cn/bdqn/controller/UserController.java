@@ -19,4 +19,8 @@ public class UserController {
         model.addAttribute("user",user);
         return "index";
     }
+
+    public String login(){
+        return  "";
+    }
 }
